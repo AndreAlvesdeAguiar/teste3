@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get 'dados/:codigo_serie', to: 'dados#index'
 
   # Defines the root path route ("/")
-  root "dados#index"
+
 end
